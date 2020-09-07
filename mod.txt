@@ -1,0 +1,22 @@
+{
+	"blt_version" : 2,
+	"name" : "Enemey health and bag info",
+	"description" : "",
+	"author" : "",
+	"contact" : "",
+	"version" : "1",
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/hudmanagerpd2",
+			"script_path" : "InfoPanel.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/states/playerstandard",
+			"script_path" : "InfoPanel.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/states/playerstandard",
+			"script_path" : "ForwardRay.lua"
+		}
+	]
+}
